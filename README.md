@@ -9,4 +9,4 @@
 **Illustration:**               Maintenance schedule as a part of the Monitoring Portal
 
 
-![alt text](https://github.com/dmitrii-govorukhin/projects/blob/main/IBM%20Monitoring%20Portal/maintenance_screenshot.jpg?raw=true)
+![alt text](https://github.com/dmitrii-govorukhin/IBM-Monitoring-Portal/blob/main/maintenance_screenshot.jpg?raw=true)
