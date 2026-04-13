@@ -1,12 +1,20 @@
 # IBM Monitoring Portal
 
-**Consumer:**					RF Pension Fund
+**Project:** 					  Deployment IBM Tivoli Monitoring System, Help Desk Integration.
 
-**Project:** 					Deployment IBM Tivoli Monitoring System, Help Desk Integration.
+**Consumer:**					  RF Pension Fund
 
-**Program languages:**			Bash, PHP, SQL, JavaScript
+**Program languages:**  Bash, PHP, SQL, JavaScript
 
-**Illustration:**               Maintenance schedule as a part of the Monitoring Portal
+**Description:**        The project involved the nationwide deployment of an IBM monitoring system across 87 regional monitoring sites. Following the phased deployment, technical support was provided, and the monitoring system was integrated with the help desk system. The repository contains individual files with my code and brief descriptions:
+
+ - event_history_new.js - JavaScript for processing saved monitoring events and displaying them on the web portal (using AJAX and DataTable)
+ - maintenance_screenshot.jpg - screenshot of the web portal for scheduled maintenance in technical facilities, integrated with the monitoring system to temporarily disable incident creation
+ - Recursive query to search the tree of parent items.sql - recursive SQL query against an IBM DB2 database to search the tree of child configuration elements
+ - runDeploy.sh - interactive Bash script for deploying regional monitoring servers on virtual machines running RHEL Linux 6.5
+ - SCCD_trigger.php - PHP code for integrating monitoring system data with the technical support system
+
+**Illustration:**       Maintenance schedule as a part of the Monitoring Portal
 
 
 ![alt text](https://github.com/dmitrii-govorukhin/IBM-Monitoring-Portal/blob/main/maintenance_screenshot.jpg?raw=true)
