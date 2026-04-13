@@ -538,7 +538,7 @@ header('Content-Type: text/html;charset=UTF-8');
                     $log_flag = false;
                     break;
                 case 'Проверить наличие агента BigFix':
-                    exec("curl -X GET --insecure --connect-timeout 10 --user monitoring:tivoli \"https://10.101.237.58:52315/api/query?relevance=exists%28names%20of%20bes%20computers%20whose%28name%20of%20it%20as%20lowercase%20as%20trimmed%20string%20=%20%22" . $NODEID . "%22%20as%20trimmed%20string%20as%20lowercase%29%29\"", $arr_BigFix);
+                    exec("curl -X GET --insecure --connect-timeout 10 --user test \"https://1.1.1.1/api/query?relevance=exists%28names%20of%20bes%20computers%20whose%28name%20of%20it%20as%20lowercase%20as%20trimmed%20string%20=%20%22" . $NODEID . "%22%20as%20trimmed%20string%20as%20lowercase%29%29\"", $arr_BigFix);
                     $output = "Сервер BigFix не отвечает. Данные о наличии агента не могут быть получены!";
                     foreach ($arr_BigFix as $value)
                         if (strstr($value, "</Answer>")) {
