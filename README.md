@@ -10,9 +10,11 @@
 
  - event_history_new.js - JavaScript for processing saved monitoring events and displaying them on the web portal (using AJAX and DataTable)
  - maintenance_screenshot.jpg - screenshot of the web portal for scheduled maintenance in technical facilities, integrated with the monitoring system to temporarily disable incident creation
- - Recursive query to search the tree of parent items.sql - recursive SQL query against an IBM DB2 database to search the tree of child configuration elements
+ - Recursive_query_to_search_the_tree_of_parent_items.sql - recursive SQL query against an IBM DB2 database to search the tree of child configuration elements
  - runDeploy.sh - interactive Bash script for deploying regional monitoring servers on virtual machines running RHEL Linux 6.5
  - SCCD_trigger.php - PHP code for integrating monitoring system data with the technical support system
+
+** Results / Key Findings ** The fully functional IBM Tivoli monitoring system has been remotely, operated via scripts, deployed across 87 regional monitoring centers. The total number of technical complexes being monitored exceeds 500, each of which includes its own server and network infrastructure. The monitoring system is integrated with the technical support system to enable immediate response to alarms and incidents, as well as to carry out scheduled maintenance.
 
 **Illustration:**       Maintenance schedule as a part of the Monitoring Portal
 
