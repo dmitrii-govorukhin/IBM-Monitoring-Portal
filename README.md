@@ -14,7 +14,7 @@
  - runDeploy.sh - interactive Bash script for deploying regional monitoring servers on virtual machines running RHEL Linux 6.5
  - SCCD_trigger.php - PHP code for integrating monitoring system data with the technical support system
 
-** Results / Key Findings ** The fully functional IBM Tivoli monitoring system has been remotely, operated via scripts, deployed across 87 regional monitoring centers. The total number of technical complexes being monitored exceeds 500, each of which includes its own server and network infrastructure. The monitoring system is integrated with the technical support system to enable immediate response to alarms and incidents, as well as to carry out scheduled maintenance.
+**Results / Key Findings** The fully functional IBM Tivoli monitoring system has been remotely, operated via scripts, deployed across 87 regional monitoring centers. The total number of technical complexes being monitored exceeds 500, each of which includes its own server and network infrastructure. The monitoring system is integrated with the technical support system to enable immediate response to alarms and incidents, as well as to carry out scheduled maintenance.
 
 **Illustration:**       Maintenance schedule as a part of the Monitoring Portal
 
